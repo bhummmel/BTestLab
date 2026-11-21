@@ -1,6 +1,7 @@
-site_name: BTestLab Homelab Portfolio
-site_description: Infrastructure, networking, automation, AI, VoIP, and systems troubleshooting portfolio
+site_name: Brandon Hummel Homelab Portfolio
 site_url: https://bhummmel.github.io/BTestLab/
+site_description: Infrastructure, networking, automation, AI, VoIP, and systems troubleshooting portfolio
+site_author: B H
 
 theme:
   name: material

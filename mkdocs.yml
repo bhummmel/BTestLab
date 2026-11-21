@@ -1,0 +1,110 @@
+site_name: B H Homelab Portfolio
+site_description: Infrastructure, networking, automation, AI, VoIP, and systems troubleshooting portfolio
+site_author: B H
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.tabs
+    - search.highlight
+    - search.share
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav:
+  - Home:
+      - Overview: index.md
+      - Skills Matrix: skills-matrix.md
+      - Flagship Projects: flagship-projects.md
+
+  - Flagship Projects:
+      - Unraid Infrastructure Platform: infrastructure/unraid.md
+      - TrueNAS GPU Acceleration & Local AI: ai-infrastructure/truenas-gpu-acceleration-and-local-ai.md
+      - TrueNAS GPU Passthrough & AI VM: ai-infrastructure/truenas-gpu-passthrough-and-ai-vm.md
+      - Local Voice Assistant Stack: ai-infrastructure/local-voice-assistant-stack.md
+      - Nextcloud & OnlyOffice Stack: services/nextcloud-onlyoffice-selfhosted-productivity-stack.md
+      - TrueNAS Arr Stack & Jellyfin: services/truenas-arr-stack-and-jellyfin-integration.md
+      - ZFS Recovery & Homelab Maintenance: infrastructure/truenas-zfs-recovery-and-homelab-maintenance.md
+      - Analog Telephone & FusionPBX: voip/analog-telephone-and-fusionpbx-integration.md
+      - UniFi Network Application on Unraid: networking/unifi-network-application-on-unraid.md
+
+  - Infrastructure:
+      - Unraid Infrastructure: infrastructure/unraid.md
+      - TrueNAS Recovery & Migration: infrastructure/truenas-recovery-and-migration.md
+      - Homelab Network Modernization: infrastructure/homelab-network-modernization.md
+      - UPS Monitoring & Power Protection: infrastructure/ups-monitoring-and-power-protection.md
+      - TrueNAS UPS & NUT Integration: infrastructure/truenas-ups-and-nut-integration.md
+
+  - Networking:
+      - OPNsense & UniFi Architecture: networking/opnsense-unifi-network-architecture.md
+      - pfSense VPN & DNS Infrastructure: networking/pfsense-vpn-and-dns-infrastructure.md
+      - pfSense Firewall Bring-Up: networking/pfsense-firewall-bringup-and-deployment.md
+      - Firewall & Network Hardware Evaluation: networking/firewall-and-network-infrastructure-evaluation.md
+      - UniFi Controller Troubleshooting: networking/unifi-controller-troubleshooting.md
+      - Switch Deployment & PoE Planning: networking/switch-deployment-and-poe-planning.md
+      - Ethernet Termination & Cabling: networking/ethernet-termination-and-structured-cabling.md
+      - SB8200 Internet Troubleshooting: networking/sb8200-internet-performance-troubleshooting.md
+      - Rongta RP80 PoE Evaluation: networking/rongta-rp80-poe-evaluation.md
+
+  - AI Infrastructure:
+      - NAS & Local AI Platform Design: ai-infrastructure/nas-and-local-ai-platform-design.md
+      - GPU Inference Hardware Evaluation: ai-infrastructure/gpu-inference-hardware-evaluation.md
+      - Local AI Infrastructure: services/local-ai-infrastructure.md
+      - Frigate Video AI & Coral Planning: ai-infrastructure/frigate-video-ai-and-coral-planning.md
+      - Local AI Voice Assistant Architecture: ai-infrastructure/local-ai-voice-assistant-architecture.md
+
+  - Home Automation:
+      - Home Assistant Z-Wave & Zigbee: home-automation/home-assistant-zwave-zigbee-infrastructure.md
+      - Home Assistant Assist & Wyoming: home-automation/home-assistant-assist-and-wyoming.md
+      - ESP32 Smart Pet Feeder: automation/esp32-smart-pet-feeder.md
+      - Fire Tablet Dashboard & Privacy Hardening: home-automation/fire-tablet-dashboard-and-privacy-hardening.md
+      - Frigate & Home Assistant Automation: home-automation/frigate-home-assistant-automation.md
+
+  - Services:
+      - Jellyfin on TrueNAS SCALE: services/jellyfin-truenas-scale-deployment.md
+      - Jellyfin Remote Access & Onboarding: services/jellyfin-remote-access-and-onboarding.md
+      - Jellyfin GPU Transcoding & Media Automation: services/jellyfin-gpu-transcoding-and-media-automation.md
+      - GPU-Accelerated AI & Media Services: services/gpu-accelerated-ai-and-media-services.md
+      - Django & PostgreSQL Stack: services/django-postgres-container-stack.md
+      - Self-Hosted SMS Gateway Evaluation: services/selfhosted-sms-gateway-evaluation.md
+
+  - VoIP:
+      - FreePBX & VoIP.ms Deployment: services/freepbx-voipms-deployment.md
+      - Grandstream HT802 Troubleshooting: voip/grandstream-ht802-analog-line-troubleshooting.md
+      - FreePBX & Analog Telephony: services/freepbx-analog-telephony.md
+
+  - Incident Reports:
+      - ZFS Kernel Panic Recovery: incidents/zfs-kernel-panic-recovery.md
+      - ZFS Corruption & Scrub Recovery: incidents/zfs-corruption-and-scrub-recovery.md
+      - TrueNAS GPU Passthrough Troubleshooting: incidents/truenas-gpu-passthrough-and-container-troubleshooting.md
+      - TrueNAS VFIO & GPU Passthrough: incidents/truenas-vfio-and-gpu-passthrough-troubleshooting.md
+      - Jellyfin Kubernetes & Auth Recovery: incidents/jellyfin-kubernetes-deployment-and-auth-recovery.md
+      - TrueNAS ACL & Container Path Troubleshooting: incidents/truenas-acl-and-container-path-troubleshooting.md
+      - Nextcloud Docker & PostgreSQL Troubleshooting: incidents/nextcloud-docker-networking-and-postgresql-troubleshooting.md
+      - ReSpeaker Driver & ALSA Troubleshooting: incidents/respeaker-driver-and-alsa-troubleshooting.md
+      - FreePBX SIP Registration Troubleshooting: incidents/freepbx-sip-registration-troubleshooting.md
+      - Analog Ringer Voltage & ATA Compatibility: incidents/analog-ringer-voltage-and-ata-compatibility.md
+      - UniFi Docker Port & MongoDB Troubleshooting: incidents/unifi-docker-port-and-mongodb-troubleshooting.md
+      - pfSense VPN Policy Routing: incidents/pfsense-vpn-policy-routing.md
+      - NUT USB Permission & UPS Detection: incidents/nut-usb-permission-and-ups-detection.md
+
+  - Experimental Projects:
+      - SDR & RF Experimentation: projects/sdr-and-rf-experimentation.md
+      - Headless MacBook AI Node: projects/headless-macbook-ai-node.md
+      - UDM Pro Evaluation: projects/unifi-udm-pro-evaluation.md
+      - Privacy-Focused Smart Home Terminals: projects/privacy-focused-smart-home-terminals.md
+      - Secure Media Onboarding Portal: projects/secure-media-onboarding-portal.md
+      - Private Messaging Infrastructure Planning: projects/private-messaging-infrastructure-planning.md

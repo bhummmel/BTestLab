@@ -1,6 +1,6 @@
-site_name: B H Homelab Portfolio
+site_name: BTestLab Homelab Portfolio
 site_description: Infrastructure, networking, automation, AI, VoIP, and systems troubleshooting portfolio
-site_author: B H
+site_url: https://bhummmel.github.io/BTestLab/
 
 theme:
   name: material

@@ -29,9 +29,9 @@ nav:
   - Home:
       - Overview: index.md
       - Skills Matrix: skills-matrix.md
-      - Flagship Projects: flagship-projects.md
 
   - Flagship Projects:
+      - Overview: flagship-projects.md  
       - Unraid Infrastructure Platform: infrastructure/unraid.md
       - TrueNAS GPU Acceleration & Local AI: ai-infrastructure/truenas-gpu-acceleration-and-local-ai.md
       - TrueNAS GPU Passthrough & AI VM: ai-infrastructure/truenas-gpu-passthrough-and-ai-vm.md

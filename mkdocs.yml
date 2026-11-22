@@ -31,7 +31,7 @@ nav:
       - Skills Matrix: skills-matrix.md
 
   - Flagship Projects:
-      - Overview: flagship-projects.md  
+      - Overview: flagship-projects.md
       - Unraid Infrastructure Platform: infrastructure/unraid.md
       - TrueNAS GPU Acceleration & Local AI: ai-infrastructure/truenas-gpu-acceleration-and-local-ai.md
       - TrueNAS GPU Passthrough & AI VM: ai-infrastructure/truenas-gpu-passthrough-and-ai-vm.md
@@ -48,6 +48,7 @@ nav:
       - Homelab Network Modernization: infrastructure/homelab-network-modernization.md
       - UPS Monitoring & Power Protection: infrastructure/ups-monitoring-and-power-protection.md
       - TrueNAS UPS & NUT Integration: infrastructure/truenas-ups-and-nut-integration.md
+      - Dashboarr Arr Stack Management: infrastructure/dashboarr-arr-stack-management.md
 
   - Networking:
       - OPNsense & UniFi Architecture: networking/opnsense-unifi-network-architecture.md
@@ -59,6 +60,9 @@ nav:
       - Ethernet Termination & Cabling: networking/ethernet-termination-and-structured-cabling.md
       - SB8200 Internet Troubleshooting: networking/sb8200-internet-performance-troubleshooting.md
       - Rongta RP80 PoE Evaluation: networking/rongta-rp80-poe-evaluation.md
+      - qBittorrent & Gluetun VPN: networking/qbittorrent-gluetun-vpn-integration.md
+      - UniFi Mobile Router & OPNsense: networking/unifi-mobile-router-opnsense-remote-access.md
+
 
   - AI Infrastructure:
       - NAS & Local AI Platform Design: ai-infrastructure/nas-and-local-ai-platform-design.md
@@ -70,9 +74,14 @@ nav:
   - Home Automation:
       - Home Assistant Z-Wave & Zigbee: home-automation/home-assistant-zwave-zigbee-infrastructure.md
       - Home Assistant Assist & Wyoming: home-automation/home-assistant-assist-and-wyoming.md
-      - ESP32 Smart Pet Feeder: automation/esp32-smart-pet-feeder.md
+      - ESP32 Smart Pet Feeder: home-automation/esp32-smart-pet-feeder.md
       - Fire Tablet Dashboard & Privacy Hardening: home-automation/fire-tablet-dashboard-and-privacy-hardening.md
       - Frigate & Home Assistant Automation: home-automation/frigate-home-assistant-automation.md
+      - Steam Machine & Home Assistant: home-automation/bazzite-steam-machine-home-assistant-integration.md
+      - ESP32 Smart Pet Feeder: home-automation/esp32-smart-pet-feeder.md
+      - Sonos Connect & AUX-2 Evaluation: home-automation/home-assistant-aux2-sonos-connect-evaluation.md
+      - Skylight Calendar Integration: home-automation/skylight-calendar-android-integration.md
+
 
   - Services:
       - Jellyfin on TrueNAS SCALE: services/jellyfin-truenas-scale-deployment.md
@@ -83,9 +92,10 @@ nav:
       - Self-Hosted SMS Gateway Evaluation: services/selfhosted-sms-gateway-evaluation.md
 
   - VoIP:
-      - FreePBX & VoIP.ms Deployment: services/freepbx-voipms-deployment.md
+      - FreePBX & VoIP.ms Deployment: voip/freepbx-voipms-deployment.md
       - Grandstream HT802 Troubleshooting: voip/grandstream-ht802-analog-line-troubleshooting.md
-      - FreePBX & Analog Telephony: services/freepbx-analog-telephony.md
+      - FreePBX & Analog Telephony: voip/freepbx-analog-telephony.md
+      - FreePBX & VoIP.ms: voip/freepbx-voipms-deployment.md
 
   - Incident Reports:
       - ZFS Kernel Panic Recovery: incidents/zfs-kernel-panic-recovery.md
@@ -101,6 +111,8 @@ nav:
       - UniFi Docker Port & MongoDB Troubleshooting: incidents/unifi-docker-port-and-mongodb-troubleshooting.md
       - pfSense VPN Policy Routing: incidents/pfsense-vpn-policy-routing.md
       - NUT USB Permission & UPS Detection: incidents/nut-usb-permission-and-ups-detection.md
+      - Prowlarr & FlareSolverr Troubleshooting: incidents/prowlarr-flaresolverr-indexer-troubleshooting.md
+
 
   - Experimental Projects:
       - SDR & RF Experimentation: projects/sdr-and-rf-experimentation.md
@@ -109,3 +121,4 @@ nav:
       - Privacy-Focused Smart Home Terminals: projects/privacy-focused-smart-home-terminals.md
       - Secure Media Onboarding Portal: projects/secure-media-onboarding-portal.md
       - Private Messaging Infrastructure Planning: projects/private-messaging-infrastructure-planning.md
+      - Linux Vehicle Computer & SDR: projects/linux-vehicle-computer-sdr-integration.md

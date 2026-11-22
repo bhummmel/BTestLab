@@ -43,7 +43,7 @@ The portfolio emphasizes hands-on implementation, system integration, troublesho
 | Home Assistant | Home automation, integrations, entity management, and YAML automations | [Home Assistant Infrastructure](home-automation/home-assistant-zwave-zigbee-infrastructure.md) |
 | Zigbee & Z-Wave | Device integration, wireless mesh networks, and troubleshooting | [Zigbee & Z-Wave](home-automation/home-assistant-zwave-zigbee-infrastructure.md) |
 | MQTT | Message-based communication and integration of connected devices | [Home Assistant Infrastructure](home-automation/home-assistant-zwave-zigbee-infrastructure.md) |
-| ESPHome & ESP32 | Embedded device configuration and integration | [ESP32 Smart Pet Feeder](automation/esp32-smart-pet-feeder.md) |
+| ESPHome & ESP32 | Embedded device configuration and integration | [ESP32 Smart Pet Feeder](home-automation/esp32-smart-pet-feeder.md) |
 | Local Voice AI | Speech recognition, speech synthesis, and voice assistant integration | [Local Voice Assistant Stack](ai-infrastructure/local-voice-assistant-stack.md) |
 | GPU AI Inference | GPU hardware evaluation and local AI deployment planning | [GPU Inference Evaluation](ai-infrastructure/gpu-inference-hardware-evaluation.md) |
 
@@ -51,7 +51,7 @@ The portfolio emphasizes hands-on implementation, system integration, troublesho
 
 | Technology / Skill | Practical Experience | Supporting Documentation |
 |---|---|---|
-| FreePBX | PBX deployment, SIP trunks, inbound/outbound routing, and troubleshooting | [FreePBX Deployment](services/freepbx-voipms-deployment.md) |
+| FreePBX | PBX deployment, SIP trunks, inbound/outbound routing, and troubleshooting | [FreePBX Deployment](voip/freepbx-voipms-deployment.md) |
 | FusionPBX | VoIP integration, SIP routing, and analog telephone connectivity | [Analog Telephone & FusionPBX](voip/analog-telephone-and-fusionpbx-integration.md) |
 | SIP | Registration, authentication, NAT traversal, and call routing | [SIP Registration Troubleshooting](incidents/freepbx-sip-registration-troubleshooting.md) |
 | Analog Telephone Adapters | Grandstream and Cisco ATA configuration and troubleshooting | [Grandstream HT802](voip/grandstream-ht802-analog-line-troubleshooting.md) |

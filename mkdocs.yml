@@ -67,7 +67,7 @@ nav:
   - AI Infrastructure:
       - NAS & Local AI Platform Design: ai-infrastructure/nas-and-local-ai-platform-design.md
       - GPU Inference Hardware Evaluation: ai-infrastructure/gpu-inference-hardware-evaluation.md
-      - Local AI Infrastructure: ai-infrastructure/local-ai-infrastructure.md
+      - Local AI Infrastructure: services/local-ai-infrastructure.md
       - Frigate Video AI & Coral Planning: ai-infrastructure/frigate-video-ai-and-coral-planning.md
       - Local AI Voice Assistant Architecture: ai-infrastructure/local-ai-voice-assistant-architecture.md
 

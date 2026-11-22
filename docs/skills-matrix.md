@@ -66,12 +66,6 @@ The portfolio emphasizes hands-on implementation, system integration, troublesho
 | Hardware Troubleshooting | USB device detection, drivers, and peripheral integration | [ReSpeaker Driver Troubleshooting](incidents/respeaker-driver-and-alsa-troubleshooting.md) |
 | Technical Documentation | Architecture write-ups, configuration procedures, incident reports, and lessons learned | [Incident Reports](incidents/zfs-kernel-panic-recovery.md) |
 
-## Certifications
-
-- CompTIA A+
-- Cisco Certified Network Associate (CCNA)
-- FCC Amateur Radio Technician License
-
 ## Professional Focus
 
 The practical experience documented in this portfolio is most relevant to the following career paths:
